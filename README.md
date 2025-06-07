@@ -25,6 +25,8 @@ The python file that calculates and compares the size of the training libraries 
 * It first imports the Excel File ‘regional\_prediction\_strategies.xlsx’. This contains the library sizes.  
 * It then organizes a bargraph ordered by the largest taxa libraries for each region (Figure 2b)
 
+Individual figures and graphs can be found in the folder, CyrilUnzipped. Figure headings describe the parameters that were used. Note: more parameters were explored in these figures than those that were reported in the paper, because some parameters (presense of 'deep features' and exclusion of taxa that were not present in the test set) were not appropriate for the study's analysis.
+
 ### 3.1.2. Performance of the Computer Model
 
 The python file measures model performance as it relates to inside and outside of taxonomic class and order is called ‘error\_by\_phyla.ipynb’
